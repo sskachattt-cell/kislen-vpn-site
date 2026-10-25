@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KISLEN VPN</title>
+
+    <style>
+        html {
+    scroll-behavior: smooth;
+}
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #080b09;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 25px;
+            background: #101a13;
+            color: #39ff88;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 80px 20px;
+        }
+
+        h1 {
+            font-size: 42px;
+            color: #39ff88;
+        }
+
+        p {
+            font-size: 18px;
+            color: #cccccc;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 15px 30px;
+            background: #39ff88;
+            color: #080b09;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            padding: 25px;
+            color: #888888;
+        }
+    @media (max-width: 600px) {
+    main {
+        padding: 50px 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    header {
+        font-size: 24px;
+    }
+
+    #tariffs {
+        padding: 20px 15px 50px !important;
+    }
+
+    #tariffs > div > div {
+        width: 100% !important;
+        max-width: 320px;
+        box-sizing: border-box;
+    }
+
+    #tariffs button {
+        width: 100%;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <header>
+    🛡️ KISLEN VPN
+
+    <nav style="
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+    ">
+        <a href="#tariffs" style="color: white; text-decoration: none; font-size: 16px;">
+            💎 Тарифы
+        </a>
+
+        <a href="#how-to-connect" style="color: white; text-decoration: none; font-size: 16px;">
+            🚀 Подключение
+        </a>
+
+        <a href="#faq" style="color: white; text-decoration: none; font-size: 16px;">
+            ❓ Вопросы
+        </a>
+    </nav>
+</header>
+
+    <main>
+        <h1>Свобода интернета начинается здесь</h1>
+
+        <p>Удобный VPN-сервис для безопасного подключения.</p>
+
+        <a href="#tariffs" class="button">Посмотреть тарифы</a>
+    </main>
+<section id="tariffs" style="padding: 40px 20px 80px;">
+    <h2 style="color: #39ff88; font-size: 32px;">
+        💎 Наши тарифы
+    </h2>
+
+    <p>Выберите подходящий срок подписки</p>
+
+    <div style="
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 35px;
+    ">
+
+        <div style="background: #101a13; padding: 30px; border-radius: 16px; width: 200px;">
+            <h3>⚡ 1 день</h3>
+            <h2 style="color: #39ff88;">49 ₽</h2>
+            <p>Попробуйте на один день</p>
+            <button onclick="alert('Вы выбрали тариф: 1 день — 49 ₽. Оплата пока не подключена.')" style="
+    background: #39ff88;
+    color: #080b09;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+">
+    Выбрать тариф
+</button>
+        </div>
+
+        <div style="background: #101a13; padding: 30px; border-radius: 16px; width: 200px;">
+            <h3>💎 1 месяц</h3>
+            <h2 style="color: #39ff88;">299 ₽</h2>
+            <p>Для ежедневного использования</p>
+           <button onclick="alert('Вы выбрали тариф: 1 месяц — 299 ₽. Оплата пока не подключена.')" style="
+    background: #39ff88;
+    color: #080b09;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+">
+    Выбрать тариф
+</button> 
+        </div>
+
+        <div style="background: #101a13; padding: 30px; border-radius: 16px; width: 200px;">
+            <h3>👑 3 месяца</h3>
+            <h2 style="color: #39ff88;">799 ₽</h2>
+            <p>Для длительного подключения</p>
+            <button onclick="alert('Вы выбрали тариф: 3 месяца — 799 ₽. Оплата пока не подключена.')" style="
+    background: #39ff88;
+    color: #080b09;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+">
+    Выбрать тариф
+</button>
+        </div>
+
+        <div style="background: #101a13; padding: 30px; border-radius: 16px; width: 200px;">
+            <h3>💚 12 месяцев</h3>
+            <h2 style="color: #39ff88;">2499 ₽</h2>
+            <p>Подписка на целый год</p>
+           <button onclick="alert('Вы выбрали тариф: 12 месяцев — 2499 ₽. Оплата пока не подключена.')" style="
+    background: #39ff88;
+    color: #080b09;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+">
+    Выбрать тариф
+</button> 
+        </div>
+
+    </div>
+</section>
+<section id="how-to-connect" style="padding: 40px 20px 70px; background: #101a13;">
+    <h2 style="color: #39ff88; font-size: 32px;">
+        🚀 Как подключиться?
+    </h2>
+
+    <p>Всего три простых шага</p>
+
+    <div style="
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 35px;
+    ">
+
+        <div style="background: #080b09; padding: 25px; border-radius: 16px; width: 230px;">
+            <h3 style="color: #39ff88;">1️⃣ Откройте бота</h3>
+            <p>Перейдите в Telegram-бот KISLEN VPN.</p>
+        </div>
+
+        <div style="background: #080b09; padding: 25px; border-radius: 16px; width: 230px;">
+            <h3 style="color: #39ff88;">2️⃣ Выберите тариф</h3>
+            <p>Ознакомьтесь с доступными вариантами подписки.</p>
+        </div>
+
+        <div style="background: #080b09; padding: 25px; border-radius: 16px; width: 230px;">
+            <h3 style="color: #39ff88;">3️⃣ Получите доступ</h3>
+            <p>После запуска сервиса здесь появится инструкция по подключению.</p>
+        </div>
+
+    </div>
+
+    <a href="https://t.me/KislenVPN_bot"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="button">
+        💚 Открыть Telegram-бота
+    </a>
+</section>
+<section id="faq" style="padding: 50px 20px 70px;">
+    <h2 style="color: #39ff88; font-size: 32px;">
+        ❓ Частые вопросы
+    </h2>
+
+    <p>Ответы на популярные вопросы о KISLEN VPN</p>
+
+    <div style="
+        max-width: 700px;
+        margin: 35px auto 0;
+        text-align: left;
+    ">
+
+        <details style="background: #101a13; padding: 20px; border-radius: 12px; margin-bottom: 15px;">
+            <summary style="cursor: pointer; color: #39ff88; font-weight: bold;">
+                🎁 Есть ли бесплатный пробный период?
+            </summary>
+            <p>В Telegram-боте предусмотрен пробный период на 72 часа. Возможность подключения появится после запуска VPN-сервиса.</p>
+        </details>
+
+        <details style="background: #101a13; padding: 20px; border-radius: 12px; margin-bottom: 15px;">
+            <summary style="cursor: pointer; color: #39ff88; font-weight: bold;">
+                💎 Какие тарифы доступны?
+            </summary>
+            <p>Предусмотрены тарифы на 1 день, 1 месяц, 3 месяца и 12 месяцев.</p>
+        </details>
+
+        <details style="background: #101a13; padding: 20px; border-radius: 12px; margin-bottom: 15px;">
+            <summary style="cursor: pointer; color: #39ff88; font-weight: bold;">
+                💳 Можно ли оплатить банковской картой?
+            </summary>
+            <p>Оплата банковской картой пока не подключена. Мы работаем над запуском этой возможности.</p>
+        </details>
+
+        <details style="background: #101a13; padding: 20px; border-radius: 12px; margin-bottom: 15px;">
+            <summary style="cursor: pointer; color: #39ff88; font-weight: bold;">
+                📱 На каких устройствах работает VPN?
+            </summary>
+            <p>Поддерживаемые устройства и инструкции по настройке будут указаны после запуска сервиса.</p>
+        </details>
+
+    </div>
+</section>
+    <footer>
+        © 2026 KISLEN VPN
+    </footer>
+</body>
+</html>
